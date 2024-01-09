@@ -23,15 +23,18 @@ Custom Install of MSO365-E3 Apps for Windows
 8. In Powershell (Administation) run
     1.     setup.exe /configure Configuration.xml
   
-9. My Configuration.xml contains:
+9. My [Configuration.xml](https://github.com/auvantas/MSO365-E3/blob/main/Configuration.xml) contains:
     
     1. Excel
-    2. OnceNote
+    2. OneNote
     3. Outlook
     4. PowerPoint
     5. Project
     6. Visio
     7. Word
+    8. Updates set to Monthly Enterprise Channel
+       
+            Note: These are aligned with Enterprise subcriptions
   
 11. Run the script
     ```bash
