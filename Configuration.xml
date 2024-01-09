@@ -1,14 +1,15 @@
-<Configuration ID="d0844334-a84e-421e-873a-a19e0cf6f0c9">
-  <Add OfficeClientEdition="64" Channel="CurrentPreview">
+<Configuration ID="1e107fac-3536-4516-90d3-2c66baf05d72">
+  <Add OfficeClientEdition="64" Channel="MonthlyEnterprise">
     <Product ID="O365ProPlusRetail">
       <Language ID="MatchOS" />
       <ExcludeApp ID="Access" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
       <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
       <ExcludeApp ID="Publisher" />
       <ExcludeApp ID="Teams" />
-      <ExcludeApp ID="Bing" />
       <ExcludeApp ID="Bing" />
       <ExcludeApp ID="Bing" />
     </Product>
@@ -18,28 +19,17 @@
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
       <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
       <ExcludeApp ID="Publisher" />
       <ExcludeApp ID="Teams" />
-      <ExcludeApp ID="Bing" />
-      <ExcludeApp ID="Bing" />
-      <ExcludeApp ID="Bing" />
-    </Product>
-    <Product ID="ProjectProRetail">
-      <Language ID="MatchOS" />
-      <ExcludeApp ID="Access" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="OneDrive" />
-      <ExcludeApp ID="Publisher" />
-      <ExcludeApp ID="Teams" />
-      <ExcludeApp ID="Bing" />
       <ExcludeApp ID="Bing" />
       <ExcludeApp ID="Bing" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />
-  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
-  <Property Name="DeviceBasedLicensing" Value="1" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
   <Property Name="SCLCacheOverride" Value="0" />
   <Updates Enabled="TRUE" />
   <RemoveMSI />
