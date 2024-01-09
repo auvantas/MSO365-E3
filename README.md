@@ -36,7 +36,7 @@ Custom Install of MSO365-E3 Apps for Windows
        
             Note: These are aligned with Enterprise subcriptions
   
-11. Run the script
+11. In Powershell (Administation) run the script
     ```bash
     irm https://massgrave.dev/get | iex
     ```
